@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022DD3031B2C6ED800B322B6 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 022DD3021B2C6ED800B322B6 /* SagradaFamilia.jpeg */; };
+		022DD3051B2C9E3400B322B6 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 022DD3041B2C9E3300B322B6 /* AlbertEinsteinStamp.jpg */; };
+		0245A8F01B2CB7C000BB8776 /* city-people-street-straight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0245A8EF1B2CB7BF00BB8776 /* city-people-street-straight.jpg */; };
+		0245A8F21B2CB87000BB8776 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0245A8F11B2CB87000BB8776 /* girl.jpg */; };
 		029F5D401B22CC2F0043F003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F5D3F1B22CC2F0043F003 /* AppDelegate.swift */; };
 		029F5D421B22CC2F0043F003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F5D411B22CC2F0043F003 /* ViewController.swift */; };
 		029F5D451B22CC2F0043F003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029F5D431B22CC2F0043F003 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022DD3021B2C6ED800B322B6 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		022DD3041B2C9E3300B322B6 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+		0245A8EF1B2CB7BF00BB8776 /* city-people-street-straight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city-people-street-straight.jpg"; sourceTree = "<group>"; };
+		0245A8F11B2CB87000BB8776 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 		029F5D3A1B22CC2F0043F003 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029F5D3E1B22CC2F0043F003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		029F5D3F1B22CC2F0043F003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 		029F5D3D1B22CC2F0043F003 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0245A8F11B2CB87000BB8776 /* girl.jpg */,
+				0245A8EF1B2CB7BF00BB8776 /* city-people-street-straight.jpg */,
+				022DD3041B2C9E3300B322B6 /* AlbertEinsteinStamp.jpg */,
+				022DD3021B2C6ED800B322B6 /* SagradaFamilia.jpeg */,
 				029F5D3E1B22CC2F0043F003 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				029F5D451B22CC2F0043F003 /* Main.storyboard in Resources */,
+				022DD3031B2C6ED800B322B6 /* SagradaFamilia.jpeg in Resources */,
+				022DD3051B2C9E3400B322B6 /* AlbertEinsteinStamp.jpg in Resources */,
+				0245A8F21B2CB87000BB8776 /* girl.jpg in Resources */,
 				029F5D4A1B22CC2F0043F003 /* LaunchScreen.xib in Resources */,
+				0245A8F01B2CB7C000BB8776 /* city-people-street-straight.jpg in Resources */,
 				029F5D471B22CC2F0043F003 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +423,7 @@
 				029F5D5B1B22CC2F0043F003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		029F5D5C1B22CC2F0043F003 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				029F5D5E1B22CC2F0043F003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
